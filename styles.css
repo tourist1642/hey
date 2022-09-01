@@ -1,0 +1,324 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgba(184, 184, 184, 0.22);
+}
+body::-webkit-scrollbar{
+    
+    display: none;      
+    max-height: 100vh;
+}
+a {
+    text-decoration: none;
+}
+
+.menu-flex {
+    display: flex;
+}
+
+.nav-wrapper {
+   
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/eye-for-ebony-zQQ6Y5_RtHE-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-container {
+    display: flex;
+}
+.nav {
+    width: 95%;
+    margin: 0 auto;
+}
+.logo img {
+    position: relative;
+    width: 90px;
+    z-index: 1;
+    left: 18px;
+    top: 12px;
+}
+.unorder {
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    height: 70px;
+    
+    border-radius: 5px;
+    padding: 0 20px;
+}
+.navList {
+    list-style: none;
+    align-items: center;
+}
+.navList li {
+    padding:0  40px;
+}
+.navList li a {
+    color: white;
+    font-size: 24px;
+    font-weight: 900;
+    text-shadow: 2px 2px 5px black;
+    text-transform: uppercase;
+}
+.btn {
+    margin: 10px;
+    background-color: #D6A74D;
+    border-color: transparent;
+    padding: 10px 30px;
+    border-radius: 30px;
+    font-size: 24px;
+}
+.btn a{
+    color: black;
+    font-weight: 700;
+}
+
+.nav-2 {
+    position: relative;
+    top: 40%;
+    left: 10px;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 5px black;
+}
+
+.button {
+    font-size: 30px;
+    background-color: orangered;
+}
+.m-1 button {
+    border-color: transparent;
+    border-radius: 24px;
+    font-size: 24px;
+    text-decoration: aliceblue;
+}
+.rdmore{
+    width: 10rem;
+    text-align: center;
+}
+
+.hero-container {
+    
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 60vh;
+    margin-top: 50px;
+}
+.hero{
+    width: 49.5%;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/concern-car-girl-gathers-water-1180x787-4.jpg");
+    background-repeat: no-repeat;
+}
+.hero-bar{
+    height: 30vh;
+    width: 25%;
+}
+
+.hero-1{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/Poverty-Related-Diseases.jpg");
+}
+.hero-2{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/rr.jpg");
+}
+.hero-bar-1{
+    height: 30vh;
+    width: 25%;
+    padding: 0px 1px;
+}
+.hero-3{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/images.jpeg");
+}
+.hero-4{
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/boy.jpeg");
+}
+.middle-container {
+    height: 30vh;
+    padding: 80px 30px;
+    text-align: center;
+    font-size: 50px;
+   
+}
+
+.image-container {
+    text-align: center;
+    margin: 0px auto;
+    width: 98%;
+    height: 60vh;
+}
+
+.list-1{
+    background-color: #BD6E24;
+    justify-content: space-evenly;
+    list-style: none;
+    padding: 20px 0px;
+    position: relative;
+    top: 10px;
+    height: 10vh;
+    font-size: 30px;
+    color: honeydew;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+
+.image-container-1 {
+    height: 50vh;
+    
+}
+.fore{
+    opacity: 0;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.fore:hover{
+    opacity: 1;
+    color: ivory;
+}
+.image-1 {
+    height: 46vh;
+    width: 25%;
+    background-size: cover;
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/toto.jpeg");
+    background-position: center center;
+}
+
+.image-2 {
+    height: 46vh;
+    width: 25%;
+    background-size: cover;
+    background-image:   linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/girls.jpg");
+}
+
+.image-3 {
+    height: 46vh;
+    width: 25%;
+    background-size: cover;
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/kenya3-0.png");
+}
+
+.image-4 {
+    height: 46vh;
+    width: 25%;
+    background-size: cover;
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/trpd.jpg");
+}
+
+.word {
+    color: honeydew;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+    height: 30%;
+    margin: 50px;
+    background-color: #BD6E24;
+    text-align: center;
+    font-size: 50px;
+}
+
+.image-container-2 {
+    height: 50vh;
+    margin: 10px auto;
+    width: 98%;
+}
+.term {
+    position: relative;
+    top: 200px;
+    align-content: center;
+    text-align: center;
+    color: rgba(255, 251, 251, 0.967);
+    font-size: 30px;
+    text-shadow: 1px 2px 3px rgb(0, 0, 0);
+}
+.image-5 {
+    width: 33.33%;
+    height: 50vh;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/kid.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image-6 {
+    width: 33.33%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/sss.jpeg");
+}
+
+.image-7 {
+    width: 33.33%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0), rgba(0, 0, 0, 0.73)), url("./images/depositphotos_152535348-stock-photo-outgoing-woman-hearing-song-in.jpg");
+}
+.street{
+    height: 20vh;
+}
+.btm{
+    position: relative;
+    top: 20px;
+    justify-content: center;
+   
+}
+
+.footer{
+    margin-top: 20px;
+    background-color:#C4C4C4;
+    height: 20vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer p{
+text-align: center;
+}
+.icons{
+    justify-content: center;
+    list-style: none;
+}
+.icons li{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+@media only screen and (max-width: 1620px){
+    .nav-2 {
+       
+        font-size: 40px;
+    
+        
+    }
+    .list-1{
+        font-size: 24px;
+
+    }
+    .fore{
+        font-size: 24px;
+       
+    }
+
+    .word {
+        font-size: 30px;
+}
+    .term {
+        font-size: 24px;
+       
+    }
+}
